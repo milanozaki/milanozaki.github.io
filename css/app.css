@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    color:#0000
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.navbar{
+    color:#ffffff;
+    background-color:#000000;
+}
+.font-esthetic {
+    font-family: 'Sacramento', cursive !important;
+    color: #000000 !important;
+}
+.font-sendiri {
+    font-family: Great Vibes;
+    font-weight: Regular;
+    color: rgba(0,0,0,1);
+}
+.font-send{
+    font-family: Playfair Display;
+    font-weight: ExtraBold;
+    color: rgba(92,127,82,1);
+}
+.jadwal{
+    font-family: Playfair Display;
+    font-weight: ExtraBold;
+    color: rgb(0, 0, 0);
+}
+.font-turut{
+    font-family: Playfair Display;
+    font-weight: Medium;
+    color:rgba(0,0,0,1);
+}
+
+.font-arabic {
+    font-family: 'Noto Naskh Arabic', serif !important;
+    color: #000000 !important;
+}
+.img-layout{
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img-crop {
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img-crops {
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.img-crops>img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    
+}
+
+.img-crop>img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.btn-music {
+    position: fixed;
+    bottom: 9vh;
+    right: 2vh;
+    z-index: 1055;
+}
+
+.loading-page {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 1056 !important;
+}
+
+.card-body {
+    overflow-wrap: break-word !important;
+}
+
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+.background{
+    background-color:#000000;
+}
+.ravendra {
+   font-family: "Playfair Display";
+   font-weight: 600;
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+.putra {
+   font-family: "Playfair Display";
+   font-size: larger;
+   font-weight: 200;
+   color: rgb(255, 255, 255);
+
+}
+footer {
+    background-color: rgb(255, 255, 255) !important;
+    margin-top: -0.4rem;
+    padding-bottom: 4rem;
+}
+.peristiwa {
+    font-family: "Poly";
+    font-weight: 400;
+    text-align: center;
+    margin-left: 7%;
+    width: 85%;
+    color: rgba(0, 0, 0, 1);
+
+}
+.overflow-x-hidden,
+.jadwal,
+.home   {
+    color: #000;
+}
