@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <!-- Common Tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Website Undangan Khitanan Haziq </title>
+
+
+    <!-- Preconnect CDN -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Dependencies CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css" integrity="sha256-CTSx/A06dm1B063156EVh15m6Y67pAjZZaQc89LLSrU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet" />
+        
+    <!-- App CSS -->
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body style="overflow-y: hidden;">
+
+    <!-- Navbar Bottom -->
+    <nav class="navbar navbar-dark navbar-expand fixed-bottom justify-content-center rounded-top-4 p-0" id="navbar-menus">
+        <ul class="navbar-nav nav-justified w-100 align-items-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">
+                    <i class="fas fa-home"></i>
+                    <span class="d-block" style="font-size: 0.7rem;">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#khitan">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="d-block" style="font-size: 0.7rem;">Profile</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#jadwal">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span class="d-block" style="font-size: 0.7rem;">Jadwal</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="text-dark" data-bs-spy="scroll" data-bs-target="#navbar-menus" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+
+        <!-- Home -->
+        <section class="container" id="home"data-aos="zoom-in-down"data-aos-duration="1500">
+
+            <div class="text-center pt-4">
+                <h1 class="font-sendiri mb-4" style="font-size: 2.5rem;">Walimatul Khitan</h1>
+
+                <div class="py-4">
+                    <div class="img-crops border rounded-pill border-5 border-light shadow mb-4 mx-auto">
+                        <img src="./assets/images/v4_12.jpeg" alt="bg" onclick="util.modal(this)">
+                    </div>
+                </div>
+                <div class="peristiwa justify-content-center" >
+                    "Peristiwa penting dalam perjalanan hidup lelaki muslim adalah menjelang akil baligh, saat manis dalam kenangan sejarah panjang seorang muslim adalah untuk pertama dan cuma sekali ketika ia dikhitan, Ya Allah perkenankan kami mengkhitankan putra kami"
+                </div>
+                <br>
+                <br> <br>
+                <br>
+
+            </div>
+        </section>
+
+
+        <!-- Profile -->
+        <section class="container" id="khitan">
+
+            <div class="text-center"data-aos="zoom-in" data-aos-duration="2000">
+                <h1 class="font-arabic py-4 px-2" style="font-size: 2rem">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+                <h1 class="font-esthetic py-4 px-2" style="font-size: 2rem">Assalamualaikum Warahmatullahi Wabarakatuh</h1>
+
+                <p class="pb-3 px-3" >
+                    Dengan Rahmat Allah yang Maha Kuasa, Insyaallah kami akan melangsungkan  Syukuran Khitan putra kami
+                </p>
+                <div class="background">
+                    <div class="overflow-x-hidden">
+                        <div data-aos="fade-right" data-aos-duration="2000">
+                            <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
+                                <img src="./assets/images/v4_12.jpeg" alt="cowo" onclick="util.modal(this)">
+                            </div>
+                            <div class="ravendra" style="font-size: 3rem;">RAVENDRA WIDIANTO</div>
+                             <div class="putra">Putra dari Bapak Restu Widianto dan Ibu Riani Amiranthy
+                                <br>
+                                <br>
+                            An. Ravendra Widianto merupakan anak ketiga kami. Usianya kini menginjak 8 tahun dan akan segera melaksanakan khitan. Maka daripada itu, kami ingin mengadakan syukuran atas acara tersebut dengan tujuan memanjatkan rasa terimakasih kami kepada yang Maha Kuasa serta berharap bahwa anak kami kelak menjadi anak yang bermanfaat bagi dirinya, agama, dan bangsa Indonesia
+                            <br>
+                            <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    
+
+        <!-- Jadwal -->
+        <section class="container" id="jadwal">
+
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <div class="text-center">
+                    <div class="background">
+                        <h1 class="jadwal py-3" style="font-size: 2rem;" data-aos="fade-left">Jadwal Acara</h1>
+                        
+                        <h1 class="fas fa-calendar-alt">
+
+                        </h1>
+
+                        <p style="font-size: 0.9rem;" class="mt-4 py-2">
+                        Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, insyaAllah kami akan menyelenggarakan
+                        pada :
+                        </p>
+
+                        <div class="overflow-x-hidden">
+                            <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
+                                <p>Pukul 10.00 WIB - Selesai</p>
+                            </div>
+                        </div>
+                        <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
+                            <a href="https://goo.gl/maps/ALZR6FJZU3kxVwN86" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
+                                <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google Maps
+                            </a>
+                            <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem;">
+                                RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Undangan -->
+    <footer>
+        <div class="container">
+            <div class="text-center">
+
+                <p style="font-size: 0.9rem;" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">
+                    “Tanpa mengurangi rasa hormat,Kami mengundang Bapak/Ibu/Saudara/i untuk berkenan hadir diacara syukuran khitan putra kami”
+                </p>
+
+                <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">Wassalamualaikum Warahmatullahi Wabarakatuh</h1>
+                <h1 class="font-arabic py-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 2rem">اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h1>
+
+                <hr class="mt-3 mb-2">
+
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <small class="text-light">
+                            Build with<i class="fa-solid fa-heart mx-1"></i>
+                        </small>
+                    </div>
+                    <div class="col-auto">
+                        <small>
+                            <i class="fa-brands fa-whatsapp me-1"></i><a target="_blank" href="https://api.whatsapp.com/send?phone=6285894861350&text=Permisi min">Daffa Reivan</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Welcome Page -->
+    <div class="loading-page" id="welcome" style="opacity: 1;">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+
+            <div class="text-center"> 
+                <div clas="img-layout">
+                    <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
+                        <img src="./assets/images/v4_11.png">
+                    </div>
+                </div>
+                <h1 class="font-sendiri mb-4" style="font-size: 2.5rem;">Walimatul Khitan</h1>
+               
+
+                <div class="font-send my-4" style="font-size: 2.5rem;"><SPAN> RAVENDRA WIDIANTO</SPAN></div>
+                <div class="font-turut my-2" style="font-size: 1.5rem;">Turut mengundang</div>
+                <div class="font-turut my-2" style="font-size: 1.4rem;">Kepada Yth:</div>
+                <div  id="nama-tamu"></div>
+                <div class="font-turut my-1" style="font-size: 1.1rem;">@NAMA TAMU</div>
+                <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka()">
+                    <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Button -->
+    <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="util.play(this)" data-status="true" data-url="./assets/music/sound.mp3">
+        <i class="fa-solid fa-circle-pause"></i>
+    </button>
+
+    <!-- Loading page -->
+    <div class="loading-page" id="loading" style="opacity: 1;">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+            <div class="text-center w-75">
+                <img class="img-fluid mb-3" src="./assets/images/cowo.png" alt="icon" style="width: 3.5rem;">
+                <div class="progress" role="progressbar" style="height: 0.5rem;">
+                    <div class="progress-bar" id="bar" style="width: 0%"></div>
+                </div>
+                <small class="mt-1 text-light" id="progress-info">Loading asset</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Foto Large -->
+    <div class="modal fade" id="modal-image" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                        <img src="./assets/images/cowo.png" class="w-100" alt="foto" id="show-modal-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dependencies JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js" integrity="sha256-XG5M9shcLLpu8ct5bVbu6lLVzLpfZChl+csxdyLVP18=" crossorigin="anonymous"></script>
+
+    <!-- App JS -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
