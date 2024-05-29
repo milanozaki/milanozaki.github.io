@@ -42,9 +42,9 @@ const request = (method, path) => {
         }
     };
 
-    if (url.slice(-1) == '/') {
-        url = url.slice(0, -1);
-    }
+    // if (url.slice(-1) == '/') {
+    //     url = url.slice(0, -1);
+    // }
 
     return {
         async then(...params) {
@@ -213,7 +213,7 @@ const util = (() => {
             origin: { y: 0.8 },
             zIndex: 1057
         });
-        await session.check();
+        // await session.check();
         await animation();
     };
 
@@ -374,45 +374,45 @@ const session = (() => {
 
     let body = document.querySelector('body');
 
-    const login = async () => {
-        await request('POST', '/api/session')
-            .body({
-                email: body.getAttribute('data-email'),
-                password: body.getAttribute('data-password')
-            })
-            .then((res) => {
-                if (res.code == 200) {
-                    localStorage.removeItem('token');
-                    localStorage.setItem('token', res.data.token);
-                    comment.ucapan();
-                }
-            })
-            .catch((err) => {
-                alert(`Terdapat kesalahan: ${err}`);
-                window.location.reload();
-                return;
-            });
-    };
+    // const login = async () => {
+    //     await request('POST', '/api/session')
+    //         .body({
+    //             email: body.getAttribute('data-email'),
+    //             password: body.getAttribute('data-password')
+    //         })
+    //         .then((res) => {
+    //             if (res.code == 200) {
+    //                 localStorage.removeItem('token');
+    //                 localStorage.setItem('token', res.data.token);
+    //                 comment.ucapan();
+    //             }
+    //         })
+    //         .catch((err) => {
+    //             alert(`Terdapat kesalahan: ${err}`);
+    //             window.location.reload();
+    //             return;
+    //         });
+    // };
 
-    const check = async () => {
-        const token = localStorage.getItem('token');
+    // const check = async () => {
+    //     const token = localStorage.getItem('token');
 
-        if (token) {
-            const jwt = JSON.parse(atob(token.split('.')[1]));
+    //     if (token) {
+    //         const jwt = JSON.parse(atob(token.split('.')[1]));
 
-            if (jwt.exp < ((new Date()).getTime() / 1000)) {
-                await login();
-            } else {
-                await comment.ucapan();
-            }
-        } else {
-            await login();
-        }
-    };
+    //         if (jwt.exp < ((new Date()).getTime() / 1000)) {
+    //             await login();
+    //         } else {
+    //             await comment.ucapan();
+    //         }
+    //     } else {
+    //         await login();
+    //     }
+    // };
 
-    return {
-        check: check,
-    };
+    // return {
+    //     check: check,
+    // };
 })();
 
 const like = (() => {
